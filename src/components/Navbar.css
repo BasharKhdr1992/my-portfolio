@@ -1,0 +1,24 @@
+nav {
+  padding: 1rem 0;
+  background-color: lightblue;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.link {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  padding: 0 1.5rem;
+}
+
+.link:visited {
+  color: black;
+}
+
+.link:not(:last-child) {
+  margin-right: 0.75rem;
+}
+
+.link:hover {
+  font-weight: 800;
+}
