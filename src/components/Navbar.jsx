@@ -9,7 +9,7 @@ const Navbar = () => {
         Home
       </Link>
       <Link to={"/about"} className="link">
-        About
+        Who am I
       </Link>
     </nav>
   );
