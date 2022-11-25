@@ -6,6 +6,9 @@
   margin-bottom: 3rem;
 }
 
+.card:hover {
+  scale: 1.05;
+}
 .card > img {
   width: 100%;
   height: 12rem;

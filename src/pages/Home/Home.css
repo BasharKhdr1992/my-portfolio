@@ -4,3 +4,20 @@
   justify-content: space-between;
   padding: 1rem;
 }
+
+.center {
+  text-align: center;
+}
+
+.btn-primary {
+  padding: 0.7rem 1.7rem;
+  color: white;
+  background-color: hsl(230, 29%, 20%);
+  cursor: pointer;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.btn-primary:hover {
+  scale: 0.95;
+}

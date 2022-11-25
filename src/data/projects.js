@@ -3,6 +3,23 @@ const generateRandomId = () => Math.floor(Math.random() * 100000000000);
 export const projects = [
   {
     id: generateRandomId(),
+    name: "Pizza from us",
+    img: require("../images/pizza-from-us.PNG"),
+    github: "https://github.com/BasharKhdr1992/class37-project",
+    demo: "https://c37-hyf-project.herokuapp.com/",
+    features: [
+      "redux-toolkit",
+      "react-router",
+      "advanced filtering",
+      "search",
+      "sort",
+      "notification system",
+      "profiling",
+      "json web tokens",
+    ],
+  },
+  {
+    id: generateRandomId(),
     name: "countries app with theme switcher",
     img: require("../images/countries.PNG"),
     github:
@@ -100,21 +117,6 @@ export const projects = [
   },
   {
     id: generateRandomId(),
-    name: "Pizza from us",
-    img: require("../images/pizza-from-us.PNG"),
-    github: "https://github.com/BasharKhdr1992/class37-project",
-    demo: "https://c37-hyf-project.herokuapp.com/",
-    features: [
-      "redux-toolkit",
-      "react-router",
-      "advanced filtering",
-      "search functionality",
-      "notification system",
-      "profiling",
-    ],
-  },
-  {
-    id: generateRandomId(),
     name: "news homepage",
     img: require("../images/news-homepage.PNG"),
     github: "https://github.com/BasharKhdr1992/news-homepage",
@@ -123,6 +125,45 @@ export const projects = [
       "styled-components",
       "component-composition",
       "responsive-layout",
+    ],
+  },
+  {
+    id: generateRandomId(),
+    name: "easybank landing page",
+    img: require("../images/easy-bank.PNG"),
+    github: "https://github.com/BasharKhdr1992/easybank-landing-page",
+    demo: "https://byk-easybank-landing-page.netlify.app/",
+    features: [
+      "styled-components",
+      "component-composition",
+      "responsive-layout",
+      "drop down",
+    ],
+  },
+  {
+    id: generateRandomId(),
+    name: "fylo data storage indicator",
+    img: require("../images/fylo-data-storage-indicator.PNG"),
+    github: "https://github.com/BasharKhdr1992/fylo-data-storage",
+    demo: "https://byk-fylo-data-storage.netlify.app/",
+    features: [
+      "custom-progressbar",
+      "component composition",
+      "responsive-layout",
+      "reusability",
+    ],
+  },
+  {
+    id: generateRandomId(),
+    name: "crowdfunding product page",
+    img: require("../images/crowdfunding.PNG"),
+    github: "https://github.com/BasharKhdr1992/crowdfunding-product-page",
+    demo: "https://byk-crowdfunding-product-page.netlify.app/",
+    features: [
+      "custom-progressbar",
+      "component composition",
+      "responsive-layout",
+      "modal-dialog",
     ],
   },
 ];
