@@ -1,6 +1,8 @@
 import React from "react";
 import "./Footer.css";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
+import { AiFillPhone } from "react-icons/ai";
 import fem from "../../images/favicon-32x32.png";
 const Footer = () => {
   return (
@@ -28,6 +30,18 @@ const Footer = () => {
         >
           <img src={fem} alt="Frontendmentor" title="frontendmentor profile" />
         </a>
+      </div>
+      <div className="contact-info">
+        <div>
+          <MdEmail className="icon" />
+          <a href="mailto:bashar.khdr.ds.92@hotmail.com">
+            bashar.khdr.ds.92@hotmail.com
+          </a>
+        </div>
+        <div>
+          <AiFillPhone className="icon" />
+          +31687770045
+        </div>
       </div>
     </footer>
   );
