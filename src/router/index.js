@@ -7,12 +7,13 @@ import Wrapper from "./Wrapper";
 const Router = ({ children }) => {
   return (
     <Wrapper>
-      {children}
+      {children[0]}
       <Routes>
         <Route path={"/"} element={<Home />} />
         <Route path={"/about"} element={<About />} />
         <Route path={"*"} element={<PageNotFound />} />
       </Routes>
+      {children[1]}
     </Wrapper>
   );
 };
